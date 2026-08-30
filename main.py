@@ -81,7 +81,7 @@ forever(function () {
     if ((mySprite.overlapsWith(ball) || enemysprite.overlapsWith(ball)) && direction == 1) {
         direction = 2
         pause(500)
-    } else if ((mySprite.overlapsWith(ball) || enemysprite.overlapsWith(ball)) && direction == 2) {
+    } else if ((mySprite.overlapsWith(ball) || enemyscore.overlapsWith(ball)) && direction == 2) {
         direction = 1
         pause(500)
     }
